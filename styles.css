@@ -1,0 +1,91 @@
+body {
+    background-color: #146ca4;
+    background-image: url('./what-the-hex-dark.png');
+    font-family: 'Bitter', serif;
+}
+
+h1, #roundMsg, #winnerMsg {
+    text-align: center;
+    color: white;
+    font-size: 17px;
+}
+
+#roundMsg {
+    margin-top: 40px;
+}
+
+#winnerMsg {
+    width: 350px;
+    line-height: 30px;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+h1 {
+    color: white;
+    font-size: 45px;
+}
+
+#container {
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+#playerMoves, #computerMoves  {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    height: 200px;
+    line-height: 50px;
+    width: 375px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#computerMoves {
+    float: right;
+}
+
+#playerMoves div {
+    cursor: pointer;
+}
+
+#playerMoves div, #computerMoves div {
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    width: 85px;
+    transition: background-color 0.7s;
+    margin: 0px 10px;
+}
+
+#playerMoves div:hover {
+    transform: scale(1.1);
+}
+
+#playAgain {
+    width: 150px;
+    border-radius: 20px;
+    line-height: 30px;
+    height: 25px;
+    line-height: 25px;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+#playAgain:hover {
+    transform: scale(1.1);
+}
+
+#playAgain:active {
+    background-color: gray;
+}
+
